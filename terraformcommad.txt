@@ -1,0 +1,89 @@
+terraform init
+terraform validate
+terraform plan
+terraform apply [yes]
+-----------------------------------------------------------------------------------------------
+terraform.tfstate [this file contains all registry file or all detail]
+-----------------------------------------------------------------------------------------------
+1  ls
+    2  sudo apt-get update && sudo apt-get install -y gnupg software-properties-common
+    3  wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+    4  gpg --no-default-keyring --keyring /usr/share/keyrings/hashicorp-archive-keyring.gpg --fingerprint
+    5  echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] \
+    6  https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+    7  sudo apt update
+    8  sudo apt-get install terraform
+    9  terraform version
+   10  terraform --version
+   11  mkdir terraform-course
+   12  cd terraform-course/
+   13  mkdir terraform-local
+   14  cd terraform-local/
+   15  vm local.tf
+   16  vim local.tf
+   17  pwd
+   18  vim local.tf
+   19  cat local.tf 
+   20  ls
+   21  cd terraform-course/
+   22  cd terraform-local/
+   23  ls
+   24  vim l
+   25  ls
+   26  cd terraform-course/
+   27  cd terraform-local/
+   28  terraform state
+   29  cd..
+   30  cd
+   31  cd terraform-course/
+   32  mkdir terraform-docker
+   33  cd terraform-docker/
+   34  vim main.tf
+   35  terraform init
+   36  vim main.tf
+   37  terraform init
+   38  vim main.tf
+   39  terraform init
+   40  terraform providers
+   41  vim main.tf
+   42  terraform init
+   43  terraform plan
+   44  sudo apt-get install docker.io
+   45  docker
+   46  terraform plan
+   47  sudo chown $USER /var/run/docker.sock
+   48  terraform plan
+   49  terraform validate
+   50  terraform apply
+   51  vim main.tf
+   52  ls
+   53  cd  terraform-course/
+   54  ls
+   55  cd terraform-docker/
+   56  ls
+   57  vim main.tf 
+   58  history
+
+
+terraform state when we remove terraformstate.tf its create backup file 
+key extantion is .pem
+
+state is used o improve performance dependancy managmnet etc..
+
+if i delete my state or i dont have state in this case can i apply terraform apply [yes you can apply]
+
+
+
+
+
+
+IAM user 
+
+unm aesha
+pwd yJ(O*P8(
+url https://067692468620.signin.aws.amazon.com/console
+Access key AKIAQ7QWJDGGHH7BLQPV
+Secret access key :--->  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
+
+
+

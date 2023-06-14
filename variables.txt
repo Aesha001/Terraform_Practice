@@ -1,0 +1,22 @@
+variable "devops_practice" {}
+
+variable "content_map" {
+type = map
+default = {
+"content1" = "This is map variable testing"
+"content2" = "map variable is like dectinory type"
+}
+}
+
+variable "aws_ec2_object" {
+        type = object({
+                name = string
+               instance = number
+                keys = list
+                ami = string
+})
+
+default = {
+
+}
+}
