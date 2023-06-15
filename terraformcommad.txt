@@ -72,6 +72,9 @@ state is used o improve performance dependancy managmnet etc..
 
 if i delete my state or i dont have state in this case can i apply terraform apply [yes you can apply]
 
+How will you make multiple instances in terraform using single code [Ans: using count, for each, and also]
+How to change your instance name [count.index] 
+How to make deffrence config. instaces
 
 
 
